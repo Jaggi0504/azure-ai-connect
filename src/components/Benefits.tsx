@@ -13,7 +13,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section id="benefits" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
@@ -60,9 +60,9 @@ const Benefits = () => {
                   <Rocket className="h-6 w-6 text-[#01579b]" />
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-[#01579b]">Free</div>
-                  <div className="font-semibold text-gray-900">Pilot Access</div>
-                  <div className="text-sm text-gray-600">No cost during pilot phase</div>
+                  <div className="text-3xl font-bold text-[#01579b]">Special</div>
+                  <div className="font-semibold text-gray-900">Pilot Pricing</div>
+                  <div className="text-sm text-gray-600">Exclusive discounts with promo code</div>
                 </div>
               </div>
             </div>

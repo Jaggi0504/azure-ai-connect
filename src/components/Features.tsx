@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Brain, Clock, BarChart3, Zap } from "lucide-react";
@@ -29,7 +28,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section id="features" className="py-20 px-4 bg-white">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">

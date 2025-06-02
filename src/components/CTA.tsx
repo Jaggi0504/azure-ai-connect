@@ -1,11 +1,11 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { ArrowRight, Mail, Phone } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-20 px-4 bg-[#01579b]">
+    <section id="pilot" className="py-20 px-4 bg-[#01579b]">
       <div className="container mx-auto max-w-4xl text-center">
         <div className="space-y-8">
           <div className="space-y-6">
@@ -36,18 +36,14 @@ const CTA = () => {
               </Button>
             </div>
             <p className="text-sm text-gray-500">
-              Limited spots available • Free pilot access • Priority support
+              Limited spots available • Priority support
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
             <div className="flex items-center gap-2 text-blue-100">
-              <Phone className="h-5 w-5" />
-              <span>1-800-PROMPTLINE</span>
-            </div>
-            <div className="flex items-center gap-2 text-blue-100">
               <Mail className="h-5 w-5" />
-              <span>hello@promptline.ai</span>
+              <span>info@promptline.com</span>
             </div>
           </div>
         </div>
