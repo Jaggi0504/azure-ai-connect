@@ -1,35 +1,8 @@
 
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, TrendingUp, DollarSign, Users } from "lucide-react";
+import { CheckCircle, Users, Rocket, Target } from "lucide-react";
 
 const Benefits = () => {
-  const stats = [
-    {
-      icon: TrendingUp,
-      value: "85%",
-      label: "Increase in Customer Satisfaction",
-      description: "AI agents provide consistent, accurate responses"
-    },
-    {
-      icon: DollarSign,
-      value: "60%",
-      label: "Reduction in Support Costs",
-      description: "Automate routine inquiries and scale efficiently"
-    },
-    {
-      icon: Users,
-      value: "90%",
-      label: "First-Call Resolution Rate",
-      description: "Resolve customer issues on the first interaction"
-    },
-    {
-      icon: CheckCircle,
-      value: "99.9%",
-      label: "Uptime Guarantee",
-      description: "Always available when your customers need help"
-    }
-  ];
-
   const benefits = [
     "Reduce customer wait times to zero",
     "Handle unlimited concurrent calls",
@@ -46,14 +19,14 @@ const Benefits = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <Badge className="bg-[#01579b]/10 text-[#01579b] hover:bg-[#01579b]/20">
-                Proven Results
+                Pilot Program
               </Badge>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Measurable Impact on Your
-                <span className="text-[#01579b] block">Business Growth</span>
+                Join Our Exclusive
+                <span className="text-[#01579b] block">Pilot Program</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Join hundreds of businesses that have transformed their customer service and achieved remarkable results with our AI solution.
+                Be among the first businesses to experience the future of customer service. We're currently running a pilot program with select partners to perfect our AI solution.
               </p>
             </div>
 
@@ -68,20 +41,57 @@ const Benefits = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-6">
-            {stats.map((stat, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-lg border">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-[#01579b]/10 rounded-lg flex items-center justify-center">
-                    <stat.icon className="h-6 w-6 text-[#01579b]" />
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-3xl font-bold text-[#01579b]">{stat.value}</div>
-                    <div className="font-semibold text-gray-900">{stat.label}</div>
-                    <div className="text-sm text-gray-600">{stat.description}</div>
-                  </div>
+            <div className="bg-white rounded-xl p-6 shadow-lg border">
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#01579b]/10 rounded-lg flex items-center justify-center">
+                  <Target className="h-6 w-6 text-[#01579b]" />
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-[#01579b]">Limited</div>
+                  <div className="font-semibold text-gray-900">Pilot Spots</div>
+                  <div className="text-sm text-gray-600">Exclusive access to early version</div>
                 </div>
               </div>
-            ))}
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border">
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#01579b]/10 rounded-lg flex items-center justify-center">
+                  <Rocket className="h-6 w-6 text-[#01579b]" />
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-[#01579b]">Free</div>
+                  <div className="font-semibold text-gray-900">Pilot Access</div>
+                  <div className="text-sm text-gray-600">No cost during pilot phase</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border">
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#01579b]/10 rounded-lg flex items-center justify-center">
+                  <Users className="h-6 w-6 text-[#01579b]" />
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-[#01579b]">1:1</div>
+                  <div className="font-semibold text-gray-900">Support</div>
+                  <div className="text-sm text-gray-600">Dedicated onboarding assistance</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-lg border">
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#01579b]/10 rounded-lg flex items-center justify-center">
+                  <CheckCircle className="h-6 w-6 text-[#01579b]" />
+                </div>
+                <div className="space-y-2">
+                  <div className="text-3xl font-bold text-[#01579b]">Beta</div>
+                  <div className="font-semibold text-gray-900">Features</div>
+                  <div className="text-sm text-gray-600">Early access to new capabilities</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

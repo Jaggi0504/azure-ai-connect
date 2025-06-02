@@ -15,13 +15,13 @@ const Hero = () => {
                 <span className="block">with AI</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Let our intelligent AI agents handle customer calls 24/7, delivering personalized experiences that grow your business while you focus on what matters most.
+                Let PromptLine's intelligent AI agents handle customer calls 24/7, delivering personalized experiences that grow your business while you focus on what matters most.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-[#01579b] hover:bg-[#01579b]/90 text-white px-8 py-3 text-lg">
-                Get Started Today
+                Join Our Pilot Program
               </Button>
               <Button variant="outline" size="lg" className="border-[#01579b] text-[#01579b] hover:bg-[#01579b] hover:text-white px-8 py-3 text-lg">
                 Schedule Demo
