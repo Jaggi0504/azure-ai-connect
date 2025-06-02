@@ -15,7 +15,7 @@ const Hero = () => {
                 <span className="block">with AI</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Let PromptLine's intelligent AI agents handle customer calls 24/7, delivering personalized experiences that grow your business while you focus on what matters most.
+                Let intelligent AI agents handle customer calls 24/7, delivering personalized experiences that grow your business while you focus on what matters most.
               </p>
             </div>
             
