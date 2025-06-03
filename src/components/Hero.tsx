@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Phone, Bot, TrendingUp } from "lucide-react";
 
 const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-white to-blue-50 py-20 px-4">
       <div className="container mx-auto max-w-7xl">
@@ -20,7 +27,11 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-[#01579b] hover:bg-[#01579b]/90 text-white px-8 py-3 text-lg">
+              <Button 
+                size="lg" 
+                className="bg-[#01579b] hover:bg-[#01579b]/90 text-white px-8 py-3 text-lg"
+                onClick={() => scrollToSection('pilot')}
+              >
                 Join Our Pilot Program
               </Button>
               <Button variant="outline" size="lg" className="border-[#01579b] text-[#01579b] hover:bg-[#01579b] hover:text-white px-8 py-3 text-lg">
