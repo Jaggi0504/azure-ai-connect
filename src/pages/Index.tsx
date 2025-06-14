@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Benefits from "@/components/Benefits";
 import CTA from "@/components/CTA";
+import { Toaster } from "@/components/ui/toaster";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Features />
       <Benefits />
       <CTA />
+      <Toaster />
     </div>
   );
 };
