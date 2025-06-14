@@ -25,7 +25,7 @@ jobs:
       - name: Vite GitHub Pages Deployer
         uses: skywarth/vite-github-pages-deployer@v1.5.0
         with:
-          public_base_path: /azure-ai-connect/  # Replace with your repository name
+          public_base_path: /  # Replace with your repository name
           build_path: ./dist
           install_phase_node_env: dev
           build_phase_node_env: production
